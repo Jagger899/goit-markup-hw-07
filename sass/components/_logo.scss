@@ -1,0 +1,20 @@
+/* стилизация логотипа в хедере*/
+.logo {
+  color: $primary-black-color;
+  font-family: $logo-font;
+  font-weight: $bold-font-weight;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.main-logo {
+  color: $accent-color;
+}
+
+/* стилизация логотипа в футере*/
+.footer .logo {
+  color: $primary-white-color;
+  display: block;
+  margin-bottom: 20px;
+}
